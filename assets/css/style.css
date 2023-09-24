@@ -480,7 +480,7 @@ main { overflow-x: hidden; }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
-.hero-content { max-width: 450px; }
+/* .hero-content { max-width: 450px; } */
 
 .hero-title {
   text-align: center;
@@ -1211,7 +1211,7 @@ textarea.input-field {
    * STATS
    */
 
-  .stats-list { grid-template-columns: repeat(3, 1fr); }
+  .stats-list { grid-template-columns: repeat(4, 1fr); }
 
   .stats-card { height: 100%; }
 
