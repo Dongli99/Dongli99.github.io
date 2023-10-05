@@ -103,3 +103,13 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+
+
+document.getElementById('downloadButton').addEventListener('click', function() {
+    var fileUrl = './assets/resume.pdf'; 
+    var anchor = document.createElement('a');
+    anchor.href = fileUrl;
+    anchor.download = 'resume.pdf';
+    anchor.click();
+});
